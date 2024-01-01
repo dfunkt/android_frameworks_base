@@ -90,16 +90,14 @@
 
     <!-- Build properties from a GMS certified device against current platform SPL level -->
     <string-array name="config_certifiedBuildProperties" translatable="false">
-      <!--
-        Each entry must be of the format
-            FIELD:value
-        with the field belonging to android.os.Build or android.os.Build.VERSION class.
-        Example:
-        <item>BRAND:foo</item>
-        <item>DEVICE:bar</item>
-        <item>FINGERPRINT:foo/bar/bar:1.0/lorem/ipsum:dolor/sit-amet</item>
-        <item>VERSION.RELEASE:1.0</item>
-      -->
+	<item>PRODUCT:WW_Z01KD</item>
+        <item>DEVICE:ASUS_Z01KD_1</item>
+        <item>MANUFACTURER:Asus</item>
+	<item>BRAND:asus</item>
+	<item>MODEL:ASUS_Z01KD</item>
+        <item>FINGERPRINT:asus/WW_Z01KD/ASUS_Z01KD_1:9/PPR1.180610.009/16.0620.1912.23-0:user/release-keys</item>
+	<item>VERSION.SECURITY_PATCH:2019-12-01</item>
+	<item>VERSION.DEVICE_INITIAL_SDK_INT:26</item>
     </string-array>
 
     <!-- Build fingerprint from stock ROM -->
